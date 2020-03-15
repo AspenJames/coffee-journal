@@ -20,8 +20,16 @@ export default {
 </script>
 
 <style lang="sass">
+@font-face
+  font-family: "Raphtalia"
+  src: url('assets/fonts/Raphtalia.ttf') format('truetype')
+
+@font-face
+  font-family: "Rozanova"
+  src: url('assets/fonts/RozanovaThinAlt.otf') format('opentype')
+
 *
-  font-family: Avenir, Helvetica, Arial, sans-serif
+  font-family: Rozanova, Avenir, Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center

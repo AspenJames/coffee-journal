@@ -42,8 +42,9 @@ div.callout
   box-shadow: 0 8px 6px -2px $div-shadow-color
 
 h1
+  font-family: Raphtalia
   color: $text-color
-  font-size: $heading-size-large
+  font-size: $heading-size-huge
   margin: 25px auto
 
 div.inset
@@ -63,7 +64,7 @@ div.text
   height: auto
   margin: 20px auto
   padding: 10px
-  font-size: $text-size-medium
+  font-size: $text-size-large
 
 p
   color: $text-color
@@ -82,7 +83,7 @@ a
 
 @media screen and (max-width: $mq-phone)
   h1
-    font-size: $heading-size-default
+    font-size: $heading-size-medium
 
   div.inset
     width: 80%
@@ -90,5 +91,5 @@ a
 
   div.text
     width: 75%
-    font-size: $text-size-default
+    font-size: $text-size-medium
 </style>
