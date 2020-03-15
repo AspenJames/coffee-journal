@@ -17,15 +17,13 @@ export default {
 
 <style lang="sass" scoped>
 footer
-  position: fixed
-  left: 0
-  bottom: 0
-  width: 100%
+  position: relative
+  width: $content-full
   font-family: Raphtalia
   background-color: $footer-color
   color: $text-color-light
   text-align: center
-  padding: 30px 0
+  padding: $sizing-medium 0
 
   a
     font-family: Rozanova

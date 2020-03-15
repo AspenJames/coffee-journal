@@ -20,17 +20,32 @@ $link-color-hover: #FF5964;
 
 $text-size-small: 0.75em;
 $text-size-default: 1em;
-$text-size-medium: 1.5em;
-$text-size-large: 2em;
+$text-size-medium:   1.25em;
+$text-size-large:  1.5em;
+$text-size-xlarge:   2em;
 
-$heading-size-small: 1.5em;
+$heading-size-small:   1.5em;
 $heading-size-default: 2em;
-$heading-size-medium: 2.5em;
-$heading-size-large: 3em;
-$heading-size-huge: 4em;
+$heading-size-medium:  2.5em;
+$heading-size-large:   3em;
+$heading-size-huge:    4em;
 
 $line-height-default: 1.25;
-$line-height-medium: 1.5;
+$line-height-medium:  1.5;
 
+
+$content-narrow: 30%;
+$content-half:   50%;
+$content-medium: 65%;
+$content-wide:   80%;
+$content-full:   100%;
+
+$sizing-tiny:    9px;
+$sizing-small:   15px;
+$sizing-default: 20px;
+$sizing-medium:  25px;
+$sizing-large:   35px;
+$sizing-xlarge:  50px;
+$sizing-huge:    75px;
 
 $mq-phone: 768px;

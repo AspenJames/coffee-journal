@@ -26,10 +26,10 @@ export default {
 
 <style lang="sass" scoped>
 #nav
-  padding: 30px
+  padding: $sizing-medium
   background-color: $header-color
   color: $navlink-color
-  font-size: 1.5em
+  font-size: $heading-size-small
   margin: 0
 
   a
@@ -42,7 +42,6 @@ export default {
     color: $navlink-color-active
 
 main.content
-  padding-bottom: 50px
-  margin: 20px 0 50px
-  height: 100%
+  margin: $sizing-default 0 $sizing-xlarge
+  height: $content-full
 </style>

@@ -74,37 +74,38 @@ export default {
 <style lang="sass" scoped>
 div.callout
   background-color: $div-card-color
-  padding: 20px
-  margin: 20px auto
-  width: 65%
-  border-radius: 50px
+  padding: $sizing-default
+  margin: $sizing-xlarge auto
+  width: $content-medium
+  border-radius: $sizing-xlarge
   box-shadow: 0 8px 6px -2px $div-shadow-color
 
 h1
   font-family: Raphtalia
   color: $text-color
   font-size: $heading-size-huge
-  margin: 25px auto
+  margin: $sizing-medium auto
 
 .VueCarousel
-  width: 80%
+  width: $content-wide
   height: auto
   max-height: 600px
-  margin: auto
+  margin: $sizing-xlarge auto 0
+  padding: $sizing-medium 0 0
 
 img
   width: auto
-  max-width: 100%
+  max-width: $content-full
   height: auto
   margin: auto
-  object-fit: scale-down
+  object-fit: contain
 
 div.text
-  width: 50%
+  width: $content-half
   height: auto
-  margin: 20px auto
-  padding: 10px
-  font-size: $text-size-large
+  margin: $sizing-default auto
+  padding: $sizing-tiny
+  font-size: $text-size-xlarge
 
 p
   color: $text-color
@@ -126,13 +127,13 @@ a
     font-size: $heading-size-medium
 
   .VueCarousel
-    width: 100%
+    width: $content-full
 
   div.inset
-    width: 80%
+    width: $content-wide
     line-height: $line-height-medium
 
   div.text
-    width: 75%
-    font-size: $text-size-medium
+    width: $content-wide
+    font-size: $text-size-large
 </style>
