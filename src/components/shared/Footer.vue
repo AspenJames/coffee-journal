@@ -30,12 +30,10 @@ footer
   a
     font-family: Rozanova
     font-size: inherit
-    color: $navlink-color
+    color: $navlink-color-active
     font-weight: bold
-    text-decoration: none
     &:hover
       color: $link-color-hover
-      text-decoration: underline
 
 span#digit
   font-family: Helvetica

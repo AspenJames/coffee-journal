@@ -9,38 +9,37 @@
       autoplayHoverPause
       autoplayTimeout="4000"
       loop
-      navigationEnabled
       perPage="1"
       paginationColor="#BEBEBE"
     >
       <slide>
         <img
           src="https://images.pexels.com/photos/606542/pexels-photo-606542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=420"
-          alt="coffee"
+          alt="coffee mug next to open book"
         />
       </slide>
       <slide>
         <img
           src="https://images.pexels.com/photos/539432/pexels-photo-539432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=420"
-          alt="coffee"
+          alt="coffee mug viewed from top on yellow background"
         />
       </slide>
       <slide>
         <img
           src="https://images.pexels.com/photos/373888/pexels-photo-373888.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=420"
-          alt="coffee"
+          alt="coffee being poured from a glass carafe"
         />
       </slide>
       <slide>
         <img
           src="https://images.pexels.com/photos/585754/pexels-photo-585754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=420"
-          alt="coffee"
+          alt="coffee mug from the top on a dark background with coffee beans"
         />
       </slide>
       <slide>
         <img
           src="https://images.pexels.com/photos/272887/pexels-photo-272887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=420"
-          alt="coffee"
+          alt="two coffee mugs from the top with hands on each handle"
         />
       </slide>
     </carousel>
