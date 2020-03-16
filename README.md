@@ -1,34 +1,5 @@
-# coffee-log
+# Coffee Journal
 
-## Project setup
-```
-yarn install
-```
+A recipe style application for keeping and sharing coffee brewing recipes, built with Vue on top of a [Rails API][rails-api]. Licensed under [GNU GPL v3]('./LICENSE.txt').
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+rails-api: https://github.com/AspenJames/coffee-log-backend
