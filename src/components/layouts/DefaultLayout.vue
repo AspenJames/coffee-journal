@@ -1,8 +1,16 @@
 <template>
   <div class="default">
     <nav id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/" class="logo"
+        ><img
+          width="64"
+          alt="Caffeine"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Caffeine.svg/64px-Caffeine.svg.png"
+      /></router-link>
+      <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <router-link to="/signup">Signup</router-link>
+      <router-link to="/login">Login</router-link>
     </nav>
 
     <main class="content">
@@ -26,6 +34,9 @@ export default {
 
 <style lang="sass" scoped>
 #nav
+  display: flex
+  justify-content: space-between
+  align-items: center
   padding: $sizing-medium
   background-color: $header-color
   color: $navlink-color
@@ -33,10 +44,22 @@ export default {
   margin: 0
 
   a
+    height: auto
+    vertical-align: middle
+    background-color: $bg-accent
+    padding: $sizing-tiny $sizing-small
     font-weight: bold
     color: $navlink-color
     &:hover
       color: $link-color-hover
+
+  a.logo
+    background-color: $navlink-color
+
+  img
+    filter: white
+    -webkit-filter: grayscale(9)
+    filter: grayscale(9)
 
   a.router-link-exact-active
     color: $navlink-color-active

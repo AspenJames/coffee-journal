@@ -4,7 +4,7 @@
     <a href="https://aspenjames.dev/">Aspen James</a>, licensed under
     <a
       href="https://github.com/AspenJames/coffee-journal/blob/master/LICENSE.txt"
-      >GNU GPLv<span id="digit">3</span></a
+      >GNU GPLv3</a
     >
   </footer>
 </template>
@@ -19,24 +19,19 @@ export default {
 footer
   position: relative
   width: $content-full
-  font-family: Raphtalia
+  font-family: $heading-family
   background-color: $footer-color
   color: $text-color-light
   text-align: center
   padding: $sizing-medium 0
 
   a
-    font-family: Rozanova
+    font-family: $heading-family
     font-size: inherit
     color: $navlink-color-active
     font-weight: bold
     &:hover
       color: $link-color-hover
-
-span#digit
-  font-family: Helvetica
-  color: inherit
-  font-size: inherit
 
 @media screen and (max-width: $mq-phone)
   footer

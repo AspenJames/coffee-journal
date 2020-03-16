@@ -81,7 +81,7 @@ div.callout
   box-shadow: 0 8px 6px -2px $div-shadow-color
 
 h1
-  font-family: Raphtalia
+  font-family: $heading-family
   color: $text-color
   font-size: $heading-size-huge
   margin: $sizing-medium auto
