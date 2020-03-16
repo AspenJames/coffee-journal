@@ -48,6 +48,7 @@ export default {
     vertical-align: middle
     background-color: $bg-accent
     padding: $sizing-tiny $sizing-small
+    text-decoration: none
     font-weight: bold
     color: $navlink-color
     &:hover
