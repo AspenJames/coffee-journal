@@ -7,29 +7,23 @@
 </template>
 
 <script>
-import DefaultLayout from "@/components/layouts/DefaultLayout.vue";
 
 export default {
   name: "App",
   data() {
     return {
-      layout: DefaultLayout
+      // ensure layout is set in each view
+      layout: "div"
     };
   }
 };
 </script>
 
 <style lang="sass">
-@font-face
-  font-family: "Raphtalia"
-  src: url('assets/fonts/Raphtalia.ttf') format('truetype')
-
-@font-face
-  font-family: "Rozanova"
-  src: url('assets/fonts/RozanovaThinAlt.otf') format('opentype')
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Montserrat&display=swap')
 
 *
-  font-family: Rozanova, Avenir, Helvetica, Arial, sans-serif
+  font-family: $text-family, Avenir, Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center
